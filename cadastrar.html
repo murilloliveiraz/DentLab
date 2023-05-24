@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="https://kit.fontawesome.com/6cde816448.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Login</title>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script defer src="assets/js/register.js"></script>
+    <script defer src="assets/js/firebaseconfig.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">
+            <ul class="logo">
+                <li><img id="logo__image" src="assets/images/logo.svg" alt=""></li>
+                <li>
+                    <h1 class="titulo_logo">Dent<span>Lab</span></h1>
+                </li>
+            </ul>
+        </a>
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a class="login" href="form.html">LOGIN</a></li>
+        </ul>
+    </nav>
+    <section class="are_formulario">
+        <img src="assets/images/dentist-clinic.svg" class="imagem_login" alt="">
+        <aside>
+            <form action="">
+                <h2 class="titulo_form">Olá👋, tudo bem ?</h2>
+                <h4 class="texto_form">Entre com seu e-mail e senha no nosso sistema :</h4>
+                <label for="email">E-mail : </label>
+                <input id="email" type="email" placeholder="E-mail" required>
+                <label for="password"> Senha :</label>
+                <input id="password" type="password" placeholder="Senha" required>
+                <label for="password"> Repita a Senha :</label>
+                <input id="confirmPassword" type="password" placeholder="Repita a Senha" required>
+                <button id="registerButton" type="button">CADASTRAR-SE</button>
+            </form>
+        </aside>
+    </section>
+</body>
+
+</html>
