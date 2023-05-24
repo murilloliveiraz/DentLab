@@ -1,0 +1,49 @@
+
+#logo__image{
+    width: 72px;
+    height: auto;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 24px;
+    font-family: var(--texto);
+}
+
+span {
+    color: var(--texto-logo);
+}
+
+.titulo_logo{
+    font-family: var(--texto-logo);
+    font-size: 24px;
+    color: var(--texto-logo-cor);
+}
+
+.login{
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--cor-botao);
+}
+
+@media (max-width:900px){
+    .menu{
+        display: none;
+    }
+}

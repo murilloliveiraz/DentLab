@@ -1,0 +1,10 @@
+@media (max-width:900px) {
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+    }
+}

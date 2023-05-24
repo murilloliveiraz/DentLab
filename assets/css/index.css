@@ -1,0 +1,16 @@
+@import url(nav.css);
+@import url(variaveis.css);
+@import url(header.css);
+@import url(util.css);
+@import url(vantagens.css);
+@import url(mensagem.css);
+@import url(main.css);
+@import url(profissional.css);
+@import url(carrossel.css);
+@import url(footer.css);
+@import url(formulario_login.css);
+@import url(cadastro.css);
+
+html{
+    scroll-behavior: smooth;
+}
